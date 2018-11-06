@@ -1,0 +1,56 @@
+body{
+	background-image: url(../images/bg2.jpg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off white*/
+	height: 100vh; /*to stretch the bg image to whole site*/
+	font-family: 'Merriweather', serif;
+}
+
+h1{
+	font-size: 40px;
+	background-color: #333; /*off black*/
+	text-transform: uppercase;
+	margin-bottom: 0;
+	letter-spacing: 3px;
+}
+h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: yellow;
+	background-color: rgba(245,245,245, 0.2);
+}
+
+#me{ /*targeting id using #(pound)*/
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style:solid; /*this will enable border */
+	border-color: white;
+	margin-top: 50px
+}
+.container /*targeting class using .(dot)*/
+{
+	width: 500px;
+	margin: 0 auto; /*using margin 0 auto to center you need to set witdh size*/
+	text-align: center;
+
+}
+
+.bio{
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: rgba(51, 51, 51, 0.8); /*will able to change background opactiy*/
+	/*background-color: #333;
+	opacity: .5;*/ /*will affect the child*/
+
+}
+
+
+
